@@ -1,3 +1,9 @@
+<script>
+  import MenuBar from "../components/menu-bar.svelte"
+</script>
+
+<MenuBar />
+
 <div class="bg-sky-600 text-violet-200 shadow-inner shadow-sky-900">
   <div class="p-2">
     <h1 class="text-2xl p-2">Intentions in your Menubar</h1>
