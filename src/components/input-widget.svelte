@@ -22,7 +22,7 @@
   setInterval(displayNextCharacter, 100)
 </script>
 
-<div class="p-8">
+<div class="px-4">
   <div class="flex justify-center">
     <div class="input-box rounded-xl shadow-lg shadow-black">
       <form on:submit|preventDefault>

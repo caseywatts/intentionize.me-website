@@ -11,16 +11,22 @@
   let myIntention;
 </script>
 
-<div class="bg-violet-200 text-center min-h-screen">
+<div class="text-center">
   <MenuBar {myIntention} />
-  <Desktop>
+  <div class="space-y-8 pt-8">
+    <div class="py-2">
       <InstructionsA />
-      <div class="md:pt-7 pb-1">
-        <InputWidget bind:myIntention/>
-      </div>
+    </div>
+    <div class="py-2">
+      <InputWidget bind:myIntention/>
+    </div>
+    <div class="py-2">
       <InstructionsB />
-    <Download />
-  </Desktop>
+    </div>
+    <div class="pt-4 bottom-0 absolute w-full">
+      <Download />
+    </div>
+  </div>
   <!-- <TitleBar {myIntention}/>
   <TwoSteps />-->
 </div>
