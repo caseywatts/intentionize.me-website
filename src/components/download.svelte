@@ -3,7 +3,7 @@
 </script>
 
 <div class="bg-violet-300 border-2 border-violet-600 md:absolute mt-6 bottom-0 w-full">
-	<div class="p-4 pt-3 space-y-2 flex justify-around items-center">
+	<div class="p-4 pb-5 space-y-2 flex justify-around items-center">
 		<div class="pt-2 underline text-blue-800 hover:text-blue-500">
 			<a href="https://github.com/caseywatts/intentions/">free and open source</a>
 		</div>
