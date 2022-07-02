@@ -4,12 +4,18 @@
   import InputWidget from "../components/input-widget.svelte"
   import TitleBar from "../components/title-bar.svelte"
   import TwoSteps from "../components/two-steps.svelte"
+  import MenuBar from "../components/menu-bar.svelte"
+  import Desktop from "../components/desktop.svelte"
   let myIntention;
 </script>
 
 <div class="bg-violet-200 text-center min-h-screen">
-  <TitleBar {myIntention}/>
-  <InputWidget bind:myIntention />
+  <MenuBar {myIntention} />
+  <Desktop>
+    <InputWidget bind:myIntention />
+  </Desktop>
+  <!-- <TitleBar {myIntention}/>
+  
   <TwoSteps />
-  <Download />
+  <Download /> -->
 </div>
