@@ -1,8 +1,9 @@
 <script>
   import MenuBar from "../components/menu-bar.svelte"
+  export let myIntention;
 </script>
 
-<MenuBar />
+<MenuBar {myIntention} />
 
 <div class="bg-sky-600 text-violet-200 shadow-inner shadow-sky-900">
   <div class="p-2">
