@@ -5,6 +5,21 @@
   const iconPath = "/focus.svg";
   const updateTitle = () => {};
   const setTitleAndHideWindow = () => {};
+
+  function* spellingGenerator () {
+    let string = "finish proposal"
+    for (let i = 1; i <= string.length; i++) {
+      yield string.slice(0,i)
+    }
+  }
+  let spellinging = spellingGenerator()
+  const displayNextCharacter = () => {
+    const currentState = spellinging.next()
+    if (currentState.done == false) {
+      myIntention = currentState.value
+    }
+  }
+  setInterval(displayNextCharacter, 100)
 </script>
 
 <div class="p-8">
