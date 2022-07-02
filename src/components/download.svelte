@@ -19,7 +19,7 @@
 			</a>
 		</div>
 		<div class="underline text-blue-800 hover:text-blue-500">
-			made by <a href="https://twitter.com/heycaseywattsup">Casey Watts!</a>
+			<a href="https://twitter.com/heycaseywattsup">made by Casey Watts!</a>
 		</div>
 	</div>
 </div>
