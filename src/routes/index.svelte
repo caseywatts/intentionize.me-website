@@ -12,10 +12,9 @@
 <div class="bg-violet-200 text-center min-h-screen">
   <MenuBar {myIntention} />
   <Desktop>
-    <InputWidget bind:myIntention />
+      <InputWidget bind:myIntention/>
+      <Download />
   </Desktop>
   <!-- <TitleBar {myIntention}/>
-  
-  <TwoSteps />
-  <Download /> -->
+  <TwoSteps />-->
 </div>
