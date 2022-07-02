@@ -1,5 +1,7 @@
 <script>
   import "../app.css";
+  import { base } from '$app/paths';
+
 </script>
 
 <div class="bg-violet-200 text-center min-h-screen">
@@ -25,7 +27,7 @@
           </div>
           <div class="p-2">then type your intention</div>
         </div>
-        <img class="inline-block w-96" src="intentions window.png" />
+        <img class="inline-block w-96" src="{base}/intentions window.png" />
       </div>
     </div>
       
@@ -33,7 +35,7 @@
       <div class="bg-violet-500 text-violet-100 p-4 text-xl">two</div>
       <div class=" p-4">
         <div class="p-3 text-xl">Now your menubar will remind you 🎉</div>
-        <img class="inline-block w-96" src="intentions menubar.png" />
+        <img class="inline-block w-96" src="{base}/intentions menubar.png" />
       </div>
     </div>
   </div>
