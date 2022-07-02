@@ -6,14 +6,20 @@
   import TwoSteps from "../components/two-steps.svelte"
   import MenuBar from "../components/menu-bar.svelte"
   import Desktop from "../components/desktop.svelte"
+  import InstructionsA from "../components/instructions-a.svelte"
+  import InstructionsB from "../components/instructions-b.svelte"
   let myIntention;
 </script>
 
 <div class="bg-violet-200 text-center min-h-screen">
   <MenuBar {myIntention} />
   <Desktop>
-      <InputWidget bind:myIntention/>
-      <Download />
+      <InstructionsA />
+      <div class="md:pt-7 pb-1">
+        <InputWidget bind:myIntention/>
+      </div>
+      <InstructionsB />
+    <Download />
   </Desktop>
   <!-- <TitleBar {myIntention}/>
   <TwoSteps />-->
