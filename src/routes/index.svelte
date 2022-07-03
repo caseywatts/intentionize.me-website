@@ -11,6 +11,10 @@
   let myIntention;
 </script>
 
+<svelte:head>
+	<title>Intentionize.me</title>
+</svelte:head>
+
 <div class="text-center">
   <MenuBar {myIntention} />
   <div class="space-y-8 pt-8">
